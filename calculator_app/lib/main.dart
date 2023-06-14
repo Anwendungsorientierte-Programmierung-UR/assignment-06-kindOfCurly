@@ -19,7 +19,7 @@ class MainApp extends StatelessWidget {
       title: appName, // This title will be displayed
       home: Scaffold(
         appBar: AppBar(title: const Text(appName)),
-        body: Calculator(),
+        body: const Calculator(),
       ),
     );
   }
